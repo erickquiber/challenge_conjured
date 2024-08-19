@@ -14,6 +14,16 @@ Dependiendo de tu nivel, elige un ejercicio de https://adventjs.dev/es#retos
 
 # Ejercicio 2
 
+
+![conjurados](https://github.com/user-attachments/assets/89a67dc7-3999-4ab4-8aa9-5ce4dfe7a18c)
+
+Para esta solución, lo primero que hice fue modularizar la funcionalidad, ya que inicialmente era difícil de comprender. Basándome en los principios SOLID, decidí separar cada tipo de artículo en su propio archivo, lo que redujo el acoplamiento en el archivo principal. Además, extraje la clase `Item` a un archivo independiente para respetar el principio de responsabilidad única; las clases, como `Item`, deben estar en su propio archivo separado del resto del código.
+
+En cuanto a la implementación de las nuevas reglas, en el archivo correspondiente a los artículos "Conjurados" se aplicó la lógica de degradación, donde la calidad se reduce al doble de velocidad con cada día que pasa. Como se puede observar en la imagen, al crear ítems con la palabrita "Conjured" o "conjured", la regla se aplica de manera correcta, disminuyendo en 2 el valor de `quality` por cada día :D.
+
+
+//
+
 > Para resolver este ejercicio, debes usar como base lo que encuentras en la carpeta `js-mocha`
 
 Bienvenido al equipo de **Gilded Rose**.
