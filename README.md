@@ -11,6 +11,7 @@
 Dependiendo de tu nivel, elige un ejercicio de https://adventjs.dev/es#retos
 * Solo los practicantes pueden elegir el nivel fácil
 * Tu solución debe estar en tu repo y debes indicar que ejercicio resolviste.
+* La solucion se encuentra aqui https://github.com/erickquiber/reto_adventjs_num4 :D
 
 # Ejercicio 2
 
